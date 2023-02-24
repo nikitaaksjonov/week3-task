@@ -19,13 +19,13 @@ html {
 }
 
 .movie-title {
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .movie-poster-container img {
     position: relative;
     margin-top: 2rem;
-    height: 450px;
+    height: 500px;
     border-radius:5%;
     left: -90rem; 
     animation: imgslide 3.5s ease-in-out forwards;  
