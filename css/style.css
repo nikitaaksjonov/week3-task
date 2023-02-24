@@ -20,6 +20,13 @@ html {
 
 .movie-title {
     text-transform: uppercase;
+    position: relative;
+    bottom: 10rem;
+    scale: 2;
+    animation: slidetop 3.5s ease-in-out forwards;
+}
+@keyframes slidetop {
+    100%{bottom: 0;scale: 1;}
 }
 
 .movie-poster-container img {
